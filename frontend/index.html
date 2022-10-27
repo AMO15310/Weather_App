@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
 
     <link rel="shortcut icon" href="/images/images.jpeg" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
@@ -17,15 +18,46 @@
 <body>
     <div class="container">
         <div class="location">
-            <p>Choose Location</p>
+            <p class="loc">Search Location <i class="fa-solid fa-location-dot"></i></p>
             <!-- <hr> -->
-            <i id="icon" class="fa-solid fa-location-dot"></i> <br>
-            <input type="text" placeholder="Enter the city name">
+            <input class="inp" type="text" placeholder="Enter the city name ">
+            <input type="submit" id="submit-btn" value="Submit">
+            <div class="auto">
+                <p class="line">
+                </p>
+                <p class="or">OR</p>
+                <p class="line"></p>
+
+            </div>
+            <div class="getLocdiv">
+                <button class="getlocation">Get Location</button>
+            </div>
+
             <!-- <hr> -->
 
         </div>
         <div class="sep"></div>
-        <div class="app">Weather App</div>
+        <div class="app">
+            <p class="head">Weather App</p>
+            <div class="w-icons">
+                <img class="cloud" src="/images/cloud.png" alt="cloud">
+                <img class="snow" src="/images/snow.png" alt="snow">
+                <img class="sun" src="/images/sun.png" alt="sun">
+                <img class="rain" src="/images/rain.png" alt="rain">
+                <img class="part-cloud" src="/images/partly-cloudy.png" alt="partly-cloudy">
+            </div>
+            <div class="name">
+                <p class="city"></p>
+            </div>
+            <div class="tempr">
+                <p class="tval"></p>
+
+            </div>
+            <div class="ther">
+                <p class="des"></p>
+                <!-- <img class="therm" src="/images/thermo.png" alt="thermo"> -->
+            </div>
+        </div>
     </div>
 
 </body>
