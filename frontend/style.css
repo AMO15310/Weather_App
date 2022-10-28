@@ -4,39 +4,25 @@
   box-sizing: border-box;
 }
 body {
-  /* background-color: rgb(14, 191, 250); */
-  /* background-image: url("/images/cloudy.jpg"); */
   background-size: cover;
 
   display: flex;
   justify-content: center;
-  /* align-items: center; */
 }
 .container {
   margin: 15rem 1rem 0rem;
   display: flex;
   margin-top: 15rem;
   justify-content: space-around;
-  /* align-items: center; */
 }
 .location {
   flex-direction: column;
-  /* border: 1px solid black; */
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   padding: 1.5rem;
   border-radius: 5px;
-  /* margin-top: 10rem; */
-  /* background-color: white; */
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
 }
 
-/* .sep {
-  border-right: 1px solid black;
-} */
 .app {
-  /* text-align: left; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -45,14 +31,9 @@ body {
   border-radius: 5px;
   width: 400px;
   padding: 1.5rem;
-
-  /* background-color: #fff; */
-  /* height: 20rem; */
 }
 .inp {
-  /* padding: 4px; */
   margin-bottom: 3rem;
-  /* margin: 2rem; */
   justify-content: center;
   height: 2rem;
   background-color: transparent;
@@ -64,12 +45,8 @@ body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-/* input:hover {
-  background-color: beige; */
-/* }z */
+
 #submit-btn {
-  /* margin-top: 4rem; */
-  /* padding: 0%; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -79,8 +56,6 @@ body {
   background-color: white;
   color: #0ebffa;
   border: none;
-
-  /* margin-left: 7rem; */
 }
 #submit-btn:hover {
   background-color: transparent;
@@ -89,11 +64,8 @@ body {
 }
 .loc {
   margin-bottom: 2rem;
-  /* padding: 3rem 0; */
   color: white;
-  /* display: flex; */
-  /* justify-content: center; */
-  /* text-decoration: underline; */
+
   font-weight: bold;
   font-size: large;
 }
@@ -122,7 +94,7 @@ body {
   margin-top: 1.5rem;
 }
 .part-cloud {
-  /* display: none; */
+  display: none;
   margin-top: 1.5rem;
 }
 .city {
@@ -140,13 +112,11 @@ body {
   margin-top: 2rem;
 }
 .or {
-  /* margin: 0 1rem; */
   padding: 0 0.8rem;
   color: #fff;
 }
 .line {
   width: 8rem;
-  /* transform: translateY(100%); */
   border-top: 1px solid white;
 }
 
@@ -195,7 +165,6 @@ hr {
   .container {
     flex-direction: column-reverse;
     margin-top: 0;
-    /* padding: 1rem !important; */
     width: 100%;
   }
   .sep {
