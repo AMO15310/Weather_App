@@ -175,6 +175,14 @@ body {
   color: whitesmoke;
   font-size: xx-large;
 }
+.mess {
+  display: flex;
+  justify-content: center;
+}
+.message {
+  margin-top: 6px;
+  color: red;
+}
 .ther {
   margin-bottom: 2px;
   color: #fff;
