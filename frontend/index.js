@@ -57,7 +57,7 @@ const validate = () => {
       const longs = data.data[0].longitude;
       const links =
         `http://api.openweathermap.org/data/2.5/weather?lat=${lats}&` +
-        `lon=${longs}&appid=11063/AMO/92d75207ba94649b3431d688628c2713`;
+        `lon=${longs}&appid=92d75207ba94649b3431d688628c2713`;
       // FETCH THE TEMPERATURE FOR THE CITY
 
       fetch(links)
@@ -113,7 +113,7 @@ const captureLoc = () => {
       const api = "11063./AMOS/.92d75207ba94649b3431d688628c2713";
       const link =
         `http://api.openweathermap.org/data/2.5/weather?lat=${lat}&` +
-        `lon=${long}&appid=11063./AMOS/.92d75207ba94649b3431d688628c2713`;
+        `lon=${long}&appid=92d75207ba94649b3431d688628c2713`;
 
       // FETCH DATA FOR THE LOCATION OBTAINED ABOVE BY BROWSER
 
@@ -147,7 +147,7 @@ const captureLoc = () => {
 
           fetch(
             `
-            http://api.positionstack.com/v1/reverse?access_key=11063/AMO/5fe69f08182d8f70ea6cac4fe50e21dc&query=${lat},${long}`
+            http://api.positionstack.com/v1/reverse?access_key=5fe69f08182d8f70ea6cac4fe50e21dc&query=${lat},${long}`
           )
             .then((response) => response.json())
             .then((data) => {
