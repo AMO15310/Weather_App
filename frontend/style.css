@@ -12,7 +12,7 @@ body {
 .container {
   margin: 15rem 1rem 0rem;
   display: flex;
-  margin-top: 15rem;
+  margin-top: 11rem;
   justify-content: space-around;
 }
 .location {
