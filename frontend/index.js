@@ -21,7 +21,11 @@ let num = "";
 // CONSTRUCT THE ARRAY FOR BACKGROIUND IMAGES
 
 const imageArray = [];
-imageArray.push("/images/cloudy.jpg", "/images/cool.jpg", "/images/rainny.jpg");
+imageArray.push(
+  "../images/cloudy.jpg",
+  "../images/cool.jpg",
+  "../images/rainny.jpg"
+);
 body.addEventListener("click", () => {
   body.style.backgroundImage = `url(${
     imageArray[Math.floor(Math.random() * imageArray.length)]
@@ -29,7 +33,7 @@ body.addEventListener("click", () => {
 });
 // DEFAULT BACKGROUND IMAGE
 
-body.style.backgroundImage = "url(/images/rainny.jpg)";
+body.style.backgroundImage = "url(../images/rainny.jpg)";
 
 // CONSTRUCT THE SUBMITT BUTTON EVENT
 
