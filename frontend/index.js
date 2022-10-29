@@ -46,7 +46,7 @@ const validate = () => {
   console.log(city);
   // FETCH THE LONGITUDES AND LATITUDES FOR THE INPUT CITY
   fetch(
-    `http://api.positionstack.com/v1/forward?access_key=11063/AM/5fe69f08182d8f70ea6cac4fe50e21dc&query=${city}`
+    `http://api.positionstack.com/v1/forward?access_key=5fe69f08182d8f70ea6cac4fe50e21dc&query=${city}`
   )
     .then((resp) => resp.json())
     .then((data) => {
